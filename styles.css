@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+  background-color: #1E201E;
+  color: #ECDFCC;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.header {
+  border: solid;
+  border-radius: 12px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+}
+
+.header-title {
+  font-family: 'Sixtyfour', sans-serif;
+  text-align: center;
+}
+
+.table-of-contents-field {
+  text-align: center;
+  font-family: 'Share Tech Mono', sans-serif;
+}
+
+.article-link {
+  color: #ECDFCC;
+  font-size: 24px;
+  text-align: center;
+  display: block;
+}
