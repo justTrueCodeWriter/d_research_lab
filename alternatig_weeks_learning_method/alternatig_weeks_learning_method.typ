@@ -1,3 +1,8 @@
+#set text(
+  size: 12pt,
+  font: "Share Tech Mono"
+)
+
 #set page(
   paper: "us-letter",
   header: align(right)[
@@ -13,9 +18,6 @@
   *"Alternating weeks" learning method*
 ])
 
-#set text(
-  size: 12pt
-)
 #show link: underline
 
 #outline()
